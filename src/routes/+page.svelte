@@ -14,7 +14,7 @@
 <SEO title="Home"/>
 
 <Header {navigation}>
-  <PreHeader />
+  <!-- <PreHeader /> -->
 </Header>
 
 
