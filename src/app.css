@@ -1781,6 +1781,20 @@ figcaption {
 .text-color-turquoise {
   color: var(--turquoise);
 }
+
+.bg-color-dark-orange {
+  background-color: var(--dark-orange);
+}
+.bg-color-light-yellow {
+  background-color: var(--light-yellow);
+}
+.bg-color-orange {
+  background-color: var(--orange);
+}
+.bg-color-turquoise {
+  background-color: var(--turquoise);
+}
+
 .font-awesome-regular {
   font-family: "Fa 400", sans-serif;
   font-weight: 400;
