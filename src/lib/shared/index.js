@@ -10,7 +10,9 @@ import otherBoardgames from './data/otherBoardgames';
 import navigation from './data/navigation';
 import faqData from './data/faqData';
 import team from './data/team';
-// import team from './data/team';
+import featuresCommunicationCards from './data/featuresCommunicationCards';
+import featuresFacilitatorCards from './data/featuresFacilitatorCards';
+import featuresLeanCoffee from './data/featuresLeanCoffee';
 // import team from './data/team';
 // import team from './data/team';
 // import team from './data/team';
@@ -30,6 +32,8 @@ export {
 	otherBoardgames,
 	navigation,
 	faqData,
-  team,
-
+	team,
+	featuresCommunicationCards,
+	featuresLeanCoffee,
+	featuresFacilitatorCards,
 };
