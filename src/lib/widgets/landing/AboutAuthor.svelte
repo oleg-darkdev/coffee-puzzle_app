@@ -7,6 +7,14 @@
 
 </script>
 
+
+
+<a name="communication-cards"></a>
+<a name="facilitator-cards"></a>
+<a name="lean-coffee"></a>
+
+
+<!--    -->
 <section class="section_layout1">
   <div class="padding-global">
     <div class="container-large">
