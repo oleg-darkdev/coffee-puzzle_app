@@ -45,7 +45,7 @@
                 <div class="footer_details-wrapper">
                   <div class="footer_link-list">
                     <h3 class="footer-heading text-color-dark-orange">Contact:</h3>
-                    <a href="mailto:coffe@puzzle-management.com" class="footer_link">coffe@puzzle-management.com</a>
+                    <a href="mailto:coffe@puzzle-management.com" class="footer_link text-color-cornsilk">coffe@puzzle-management.com</a>
                   </div>
                 </div>
               </div>
@@ -61,15 +61,15 @@
 
             <div  class="footer_link-list">
               <h3 class="footer-heading text-color-dark-orange">Navigation</h3>
-              {#each navigation as {title, link}}
-                <a href="{link}" class="footer_link">{title}</a>
+              {#each navigation as {title, link, textColor}}
+                <a href="{link}" class="{textColor} footer_link">{title}</a>
               {/each}
             </div>
 
             <div class="footer_link-list">
               <h3 class="footer-heading text-color-dark-orange">Other boardgames</h3>
               {#each otherBoardgames as {title, link}}
-                <a href="{link}" class="footer_link">{title}</a>
+                <a href="{link}" class="text-color-cornsilk footer_link">{title}</a>
               {/each}
             </div>
 
@@ -133,7 +133,7 @@
   padding-bottom: 0.4rem;
   font-size: 1rem;
   font-weight: 400;
-  color: var(--cornsilk);
+  /* color: var(--cornsilk); */
   text-decoration: none;
   transition: color 0.3s;
 }
