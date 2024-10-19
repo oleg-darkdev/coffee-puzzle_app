@@ -1,8 +1,12 @@
 // ui
 import SEO from './ui/SEO.svelte';
-// import CompoentName from './data/CompoentName';
-// import CompoentName from './data/CompoentName';
-// import CompoentName from './data/CompoentName';
+import FlatLightBtn from './ui/FlatLightBtn.svelte';
+// import CompoentName from './ui/CompoentName.svelte';
+// import CompoentName from './ui/CompoentName.svelte';
+// import CompoentName from './ui/CompoentName.svelte';
+// import CompoentName from './ui/CompoentName.svelte';
+// import CompoentName from './ui/CompoentName.svelte';
+// import CompoentName from './ui/CompoentName.svelte';
 
 
 // data
@@ -36,4 +40,5 @@ export {
 	featuresCommunicationCards,
 	featuresLeanCoffee,
 	featuresFacilitatorCards,
+	FlatLightBtn,
 };

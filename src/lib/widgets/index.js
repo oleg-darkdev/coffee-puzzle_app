@@ -13,7 +13,7 @@ import Features from './landing/Features.svelte';
 import Faq from './landing/Faq.svelte';
 import About from './landing/About.svelte';
 // import CompoentName from './landing/CompoentName.svelte';
-// import CompoentName from './landing/CompoentName.svelte';
+import AboutFasilitatorCards from './landing/AboutFasilitatorCards.svelte';
 import Contact from './landing/Contact.svelte';
 import Team from './landing/Team.svelte';
 
@@ -43,7 +43,7 @@ export {
 	Faq,
 	Contact,
 	About,
-	// CompoentName,
+	AboutFasilitatorCards,
 	// CompoentName,
 	// CompoentName,
 	// CompoentName,
