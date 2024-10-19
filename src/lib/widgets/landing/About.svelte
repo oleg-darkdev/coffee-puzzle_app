@@ -7,9 +7,11 @@
 
 </script>
 
-<section class="section_layout3">
+<section class="">
   <div class="padding-global">
     <div class="container-large">
+      <a name="lean-coffee"></a>
+
       <div class="padding-section-medium">
         <div class="w-layout-grid layout3_component">
           <div class="layout3_image-wrapper">
