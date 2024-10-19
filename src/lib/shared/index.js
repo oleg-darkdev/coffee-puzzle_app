@@ -18,14 +18,14 @@ import team from './data/team';
 
 
 // utils
-import { fromBucket, from, auth, storage, supabaseClient } from './utils/supaClient';
+// import { fromBucket, from, auth, storage, supabaseClient } from './utils/supaClient';
 
 export {
-	fromBucket,
-	from,
-	auth,
-	storage,
-	supabaseClient,
+	// fromBucket,
+	// from,
+	// auth,
+	// storage,
+	// supabaseClient,
 	SEO,
 	otherBoardgames,
 	navigation,
