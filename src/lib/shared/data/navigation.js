@@ -10,17 +10,17 @@ const navigation = [
 		textColor: 'text-color-cornsilk'
 	},
 	{
-		title: 'O komunikacji',
+		title: 'Komunikacja',
 		link: '#communication-cards',
 		textColor: 'text-color-dark-orange'
 	},
 	{
-		title: 'O fasilitacji',
+		title: 'Fasilitacja',
 		link: '#facilitator-cards',
 		textColor: 'text-color-orange'
 	},
 	{
-		title: 'O Lean-coffee',
+		title: 'Lean-coffee',
 		link: '#lean-coffee',
 		textColor: 'text-color-turquoise'
 	},
