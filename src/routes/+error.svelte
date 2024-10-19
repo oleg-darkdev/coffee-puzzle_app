@@ -1,7 +1,7 @@
 
 
 <script>
-	import { dev } from '$app/environment';
+	// import { dev } from '$app/environment';
 	// export const status;
 </script>
 

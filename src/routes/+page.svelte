@@ -13,11 +13,6 @@
 
 <SEO title="Home"/>
 
-
-
-
-
-
 <Header {navigation}>
   <PreHeader />
 </Header>
