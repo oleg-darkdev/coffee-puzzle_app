@@ -13,7 +13,7 @@
       <div class="padding-section-medium contact-custom-padding">
         <div class="text-align-center">
            <a name="contact"></a>
-           
+
           <div class="max-width-large align-center">
             <div class="margin-bottom margin-xsmall">
               <h1 class="heading-preheader">Lorem Ipsum is simply dummy</h1>
@@ -213,31 +213,23 @@
                     ></path>
                   </svg>
                 </div>
-                <div class="button-text text-size-medium">coffe@puzzle-management.com</div></a
-              ><a
-                href="/"
+                <div class="button-text text-size-medium">coffe@puzzle-management.com</div></a>
+              <a
+                href="https://www.linkedin.com/in/oleg-darkdev"
                 target="_blank"
                 class="button with-icon fullwidth-mobile w-inline-block"
-                ><div class="icon-map w-embed">
-                  <svg
-                    width="100%"
-                    height="100%"
-                    viewBox="0 0 28 28"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M14.0584 14.8748C11.6084 13.6498 9.45003 12.0164 9.27503 9.04144C9.10003 5.8331 13.0084 4.02477 15.6334 4.49144C18.375 4.9581 19.7167 7.69977 19.6584 10.2664C19.5417 13.6498 16.275 14.4081 13.5917 14.8164C13.125 14.8748 13.3 15.5748 13.7667 15.5164C17.2084 14.9914 19.95 13.9998 20.4167 10.2664C20.825 6.99977 18.375 4.2581 15.2834 3.67477C12.425 3.2081 9.80003 5.24977 8.75003 7.7581C7.2917 11.2581 11.025 14.2914 13.7084 15.5748C14.1167 15.7498 14.525 15.1081 14.0584 14.8748Z"
-                      fill="#ED6A24"
-                    ></path>
-                    <path
-                      d="M14.1749 26.4248C11.8416 22.5748 9.68325 18.6082 7.75825 14.5248C6.35825 11.6665 5.01659 8.92483 6.41659 5.71649C7.69992 2.74149 11.0249 1.51649 13.9999 1.16649C21.7583 0.291492 23.5666 9.21649 21.0583 14.6998C19.0749 19.0748 16.5083 23.1582 13.5916 27.0082C13.2999 27.3582 13.9416 27.7665 14.2333 27.3582C16.2749 24.6165 18.1416 21.7582 19.8333 18.7248C21.2333 16.2165 22.6916 13.5915 23.0416 10.7332C23.6833 5.65816 20.1833 0.583159 14.8166 0.408159C10.6166 0.291492 5.01659 3.20816 4.95825 7.99149C4.95825 11.1415 6.64992 13.9998 7.99159 16.7415C9.68325 20.1832 11.5499 23.5082 13.5333 26.7748C13.7666 27.1832 14.4083 26.7748 14.1749 26.4248Z"
-                      fill="#ED6A24"
-                    ></path>
-                  </svg>
-                </div>
+                >
                 <div class="button-text text-size-medium">
-                  Lorem Ipsum is simply dummy
+                  Kontakt z autorem
+                </div>
+              </a>
+              <a
+                href="https://puzzle-management.vercel.app/"
+                target="_blank"
+                class="button with-icon fullwidth-mobile w-inline-block"
+                >
+                <div class="button-text text-size-medium">
+                  Projekt Puzzle-management
                 </div></a
               >
             </div>
