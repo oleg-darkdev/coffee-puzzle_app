@@ -1,19 +1,23 @@
 const team = [
 	{
-		role: 'Lorem Ipsum is simply dummy',
-		fullName: 'Lorem Ipsum is simply dummy',
-		img: 'oleg_darkdev.png'
+		role: 'Twórca gry edukacyjnej',
+		fullName: 'Oleg Medvedev',
+		img: 'oleg_darkdev.png',
+		icon: 'oleg-icon.svg'
 	},
 	{
-		role: 'Lorem Ipsum is simply dummy',
-		fullName: 'Lorem Ipsum is simply dummy',
-		img: 'oleg_darkdev.png'
+		role: 'Ilustratorka',
+		fullName: 'Viktoriya Tarasevich',
+		img: 'viktoriya_tarasevich.jpg',
+		icon: 'viktoriya-icon.svg'
 	},
 	{
-		role: 'Lorem Ipsum is simply dummy',
-		fullName: 'Lorem Ipsum is simply dummy',
-		img: 'oleg_darkdev.png'
+		role: 'Popularyzatorzy narzędzia lean-coffee',
+		fullName: 'Społeczność lean-coffee',
+		img: 'lean-coffee_community.svg',
+		icon: 'coffee_community-icon.svg'
 	}
+	// https://leancoffee.org/
 ];
 
 

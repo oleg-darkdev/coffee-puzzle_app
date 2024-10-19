@@ -1,35 +1,38 @@
 const navigation = [
 	{
 		title: 'Postępy',
-		link: '#steps'
+		link: '#steps',
+		textColor: 'text-color-cornsilk'
 	},
 	{
 		title: 'Galeria',
-		link: '#gallery'
+		link: '#gallery',
+		textColor: 'text-color-cornsilk'
 	},
 	{
-		title: 'Lorem',
-		link: '/'
+		title: 'O komunikacji',
+		link: '#communication-cards',
+		textColor: 'text-color-dark-orange'
 	},
 	{
-		title: 'Lorem',
-		link: '/'
+		title: 'O fasilitacji',
+		link: '#facilitator-cards',
+		textColor: 'text-color-orange'
 	},
 	{
-		title: 'Lorem',
-		link: '/'
-	},
-	{
-		title: 'Lorem',
-		link: '/'
+		title: 'O Lean-coffee',
+		link: '#lean-coffee',
+		textColor: 'text-color-turquoise'
 	},
 	{
 		title: 'F.A.Q.',
-		link: '#faq'
+		link: '#faq',
+		textColor: 'text-color-cornsilk'
 	},
 	{
 		title: 'Kontact',
-		link: '#contact'
+		link: '#contact',
+		textColor: 'text-color-cornsilk'
 	}
 ];
 
