@@ -15,7 +15,7 @@
             <div class="cta1_content">
               <div class="margin-bottom margin-xsmall">
                 <h2 class="heading-large volkswagen-extrabold">
-                  Lorem Ipsum has <span class="text-style-underline-v4">industry's standard dummy</span>
+                  Dowiedz się więcej o projekcie<span class="text-style-underline-v4">Puzzle Management.</span>
                 </h2>
               </div>
               <div class="cta-content-width">
@@ -25,7 +25,7 @@
               </div>
               <div class="margin-top margin-xsmall">
                 <div class="button-row ">
-                  <a href="/" class="button-secondary with-icon w-inline-block">
+                  <a href="https://puzzle-management.vercel.app/" target="_blank" class="button-secondary with-icon w-inline-block">
                     <div class="button-text">Lorem Ipsum has been the industry's</div>
                     <div class="icon-xxsmall w-embed">
                       <svg width="100%" height="100%" viewBox="0 0 18 15" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
