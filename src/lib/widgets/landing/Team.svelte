@@ -7,7 +7,7 @@
 
 </script>
 
-<section class="section_team2">
+<section class="">
   <div class="padding-global">
     <div class="container-large">
       <div class="padding-section-medium">
@@ -35,5 +35,43 @@
 </section>
 
 <style lang="postcss">
+.team2_social {
+  grid-column-gap: 0.875rem;
+  grid-row-gap: 0.875rem;
+  grid-template-rows: auto;
+  grid-template-columns: max-content;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
+  align-self: center;
+  margin-top: 1.5rem;
+  display: grid;
+}
+.team2_list {
+  grid-column-gap: 5rem;
+  grid-row-gap: 5rem;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  place-items: start center;
+  display: grid;
+}
 
+@media screen and (max-width: 991px) {
+  .team2_list {
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 767px) {
+  .team2_list {
+    grid-row-gap: 3rem;
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 479px) {
+  .team2_list {
+    grid-template-columns: 1fr;
+  }
+}
 </style>
