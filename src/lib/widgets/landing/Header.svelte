@@ -4,6 +4,7 @@
     // import {  } from '$shared';
     // import {  } from '$widgets';
     // import {  } from '$entities'
+  let showMenu = false;
 
   export let navigation;
 </script>
@@ -19,17 +20,18 @@
             <img src="/images/logo.svg" loading="lazy" alt="" class="h-14 w-auto">
             <!-- 63638189ed0adf172d751756_sign-on-logo.png  navbar2_logo -->
           </a>
-          <nav role="navigation" class="navbar2_menu w-nav-menu">
+          <nav role="navigation" class="hide-tablet navbar2_menu w-nav-menu ">
             {#each navigation as {title, link, textColor}}
-            <div class="link-wrap">
-              <a href="{link}" class="navbar2_link {textColor} w-nav-link">{title}</a>
-            </div>
+              <div class="link-wrap">
+                <a href="{link}" class="navbar2_link {textColor} w-nav-link">{title}</a>
+              </div>
             {/each}
             <div class="link-wrap hide-desktop">
               <a href="/" class="navbar2_link hide-desktop w-nav-link">Lorem Ipsum  <span class="font-awesome-solid padding-left padding-tiny"></span>
               </a>
             </div>
           </nav>
+
           <div class="navbar2_button-wrapper">
             <a href="/" class="button with-icon hide-mobile-landscape w-inline-block">
               <div class="button-text">Appka</div>
@@ -39,7 +41,8 @@
                 </svg>
               </div>
             </a>
-            <div class="navbar2_menu-button w-nav-button">
+
+            <div class="navbar2_menu-button w-nav-button" on:click={()=> showMenu=!showMenu}>
               <div class="menu-icon2">
                 <div class="menu-icon2_line-top"></div>
                 <div class="menu-icon2_line-middle">
@@ -51,6 +54,21 @@
           </div>
         </div>
       </div>
+
+      {#if showMenu}
+      <nav role="navigation" class="mobile_menu w-nav-menu ">
+      {#each navigation as {title, link, textColor}}
+        <div class="link-wrap">
+          <a href="{link}" class="navbar2_link {textColor} w-nav-link">{title}</a>
+        </div>
+      {/each}
+
+      <div class="link-wrap hide-desktop">
+        <a href="/" class="navbar2_link hide-desktop w-nav-link">Lorem Ipsum  <span class="font-awesome-solid padding-left padding-tiny"></span>
+        </a>
+      </div>
+    </nav>
+    {/if}
     </div>
   </div>
 
@@ -128,7 +146,7 @@
   width: 100%;
   display: flex;
   position: absolute;
-  inset: 0% 0% auto;
+  /* inset: 0% 0% auto; */
 }
 .navbar2_link {
   /* color: var(--cornsilk); */
@@ -150,8 +168,43 @@
 
 
 @media screen and (max-width: 991px) {
+  .menu-icon {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    margin-right: -0.5rem;
+    padding-bottom: 0;
+    padding-right: 0;
+    display: flex;
+  }
+  .menu-icon_line-bottom {
+    background-color: #000;
+    width: 24px;
+    height: 2px;
+    padding-bottom: 0;
+    padding-right: 0;
+  }
+  .menu-icon_line-middle-inner {
+    width: 4px;
+    height: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+  }
+
+  .menu-icon2_line-bottom,
+  .menu-icon2_line-top {
+    background-color: var(--dark-orange);
+    width: 24px;
+    height: 2px;
+    padding-bottom: 0;
+    padding-right: 0;
+  }
+
   .navbar2_menu {
-    background-color: var(--cornsilk);
+    display: none;
+    /* background-color: var(--cornsilk);
     -webkit-text-fill-color: inherit;
     background-clip: border-box;
     border-bottom: 1px solid #000;
@@ -159,9 +212,22 @@
     padding: 1rem 5%;
     position: absolute;
     overflow: auto;
-  }
-  .navbar2_menu.is-page-height-tablet {
     height: 100vh;
+    padding-bottom: 15rem; */
+  }
+
+    .mobile_menu {
+    /* display: none; */
+    background-color: var(--cornsilk);
+    -webkit-text-fill-color: inherit;
+    background-clip: border-box;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    padding: 1rem 5%;
+    position: relative;
+    overflow: auto;
+    height: 100%;
+    z-index: 10;
     padding-bottom: 15rem;
   }
   .navbar2_dropdwn-toggle {
