@@ -51,10 +51,10 @@
   ]
 </script>
 
-<section class="section_logo6">
+<section class="">
     <div class="padding-global">
-      <div class="container-large">
-        <div class="padding-section-medium">
+      <div class="container-large-2">
+        <div class="padding-section-medium w-full">
           <a name="steps"></a>
 
           <div class="text-align-center">
@@ -64,7 +64,7 @@
               </h2>
             </div>
           </div>
-          <div class="w-layout-grid logo6_list">
+          <div class="w-layout-grid steps-list w-full">
             {#each steps as {title, icon}}
               <div class="logo6_wrapper  w-inline-block">
                 <img src="/images/{icon}" loading="lazy" alt="{title} icon" class="logo6_logo">
@@ -85,5 +85,42 @@
   </section>
 
 <style lang="postcss">
-
+.steps-list {
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0.5rem;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.logo6_logo {
+  transition: transform 0.4s;
+}
+.logo6_logo.white {
+  display: none;
+}
+.logo6_wrapper {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-left: 0.675rem;
+  padding-right: 0.675rem;
+  display: flex;
+}
+@media screen and (max-width: 991px) {
+  .steps-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 767px) {
+ .steps-list {
+    grid-column-gap: 0rem;
+    grid-row-gap: 0rem;
+    grid-template-columns: 1fr 1fr;
+  }
+  .logo6_wrapper {
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
 </style>
