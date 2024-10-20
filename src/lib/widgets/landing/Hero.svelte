@@ -40,14 +40,14 @@
             <h1 class="heading-preheader ">Lorem Ipsum is simply dummy</h1>
           </div>
           <div class="margin-bottom margin-small">
-            <h2 class="heading-hero slide_from-bottom-400">Lorem Ipsum is simply dummy  <span class="text-style-underline">printing and typesetting industry.</span>
+            <h2 class="heading-hero ">Lorem Ipsum is simply dummy  <span class="text-style-underline">printing and typesetting industry.</span>
             </h2>
           </div>
           <div class="margin-bottom margin-small">
-            <p class="text-size-medium slide_from-bottom-500">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p class="text-size-medium ">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           </div>
           <div class="margin-bottom margin-small">
-            <div class="checklist-horizontal-wrap ">
+            <div class="mx-auto checklist-horizontal-wrap ">
 
               {#each boxInclude as {title, anchor, icon, textColor}}
 
@@ -65,6 +65,7 @@
 
             </div>
           </div>
+
           <div class="margin-top margin-medium">
             <div class="button-row is-button-row-center">
               <a href="/" class="button with-icon w-inline-block">

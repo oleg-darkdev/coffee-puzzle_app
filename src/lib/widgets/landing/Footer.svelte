@@ -25,23 +25,25 @@
   </div>
   <div class="page-padding">
     <div class="container-large">
-      <div class="padding-top padding-huge">
-        <div class="padding-bottom padding-xxlarge footer-padding">
-          <div class="footer-logo-mobile">
-            <div class="margin-bottom margin-medium show-mobile-portrait">
+      <div class="padding-top ">
+        <div class="w-full footer-padding mb-8">
+          <div class="footer-logo-mobile mb-8">
+            <div class="margin-bottom hide-mobile-portrait ">
               <a href="/" aria-current="page" class="footer_logo-link w-nav-brand w--current">
                 <img src="/images/logo.svg" loading="lazy" alt="">
               </a>
             </div>
           </div>
+
           <div class="w-layout-grid footer_top-wrapper">
             <div  class="footer_left-wrapper">
-              <div class="margin-bottom margin-medium hide-mobile-portrait">
+              <div class="margin-bottom show-mobile-portrait mb-8 ">
                 <a href="/" aria-current="page" class="footer_logo-link w-nav-brand w--current">
                   <img src="/images/logo.svg" loading="lazy" alt="">
                 </a>
               </div>
-              <div class="margin-bottom margin-medium">
+
+              <div class="">
                 <div class="footer_details-wrapper">
                   <div class="footer_link-list">
                     <h3 class="footer-heading text-color-dark-orange">Contact:</h3>
@@ -49,7 +51,8 @@
                   </div>
                 </div>
               </div>
-              <div class="w-layout-grid footer_social-list">
+
+              <div class="w-layout-grid footer_social-list margin-medium">
                 <a href="/" target="_blank" class="footer_social-link w-inline-block">
                   <div class="font-awesome-brands"></div>
                 </a>
@@ -75,17 +78,19 @@
 
           </div>
         </div>
-        <div class="padding-bottom padding-medium">
+
+        <div class="padding-bottom padding-medium ">
           <div class="footer_bottom-wrapper">
-            <div class="w-layout-grid footer_legal-list">
+            <div class="flex flex-row footer_legal-list">
               <div >
                 <div class="footer_credit-text">© 44games. All rights reserved.</div>
               </div>
             </div>
-            <div class="w-layout-grid footer_legal-list">
+            <div class="flex flex-row footer_legal-list pr-4">
               <div>
                 <div class="footer_credit-text">Development by</div>
               </div>
+
               <a href="https://oleg-darkdev.vercel.app/" target="_blank" class="footer_legal-link text-color-turquoise">Oleg_darkDev</a>
             </div>
           </div>
@@ -208,10 +213,11 @@
 @media screen and (max-width: 767px) {
 
 .footer_bottom-wrapper {
-    text-align: center;
+    display: flex;
+    text-align: start;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
   }
   .footer_top-wrapper {
     grid-column-gap: 2rem;
