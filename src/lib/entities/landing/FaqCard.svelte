@@ -21,9 +21,9 @@
   <div
     class="faq1_answer"
   >
-    <div class="margin-bottom margin-small">
+    <div class="margin-bottom ">
       {#each faq.a as answer}
-        <p class="text-size-medium">
+        <p class="text-size-medium mb-2">
           {answer}
         </p>
       {/each}
